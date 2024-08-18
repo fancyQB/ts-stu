@@ -1,0 +1,20 @@
+{
+  "name": "ts-stu",
+  "version": "1.0.0",
+  "description": "TS-学习",
+  "main": "index.js",
+  "scripts": {
+    "startparcel": "parcel ./index.html",
+    "start": "nodemon --watch src/ -e ts --exec ts-node src/index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.1.4",
+    "parcel-bundler": "^1.12.5",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.5.4"
+  }
+}
